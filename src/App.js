@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import Homepage from "./Pages/Homepage";
+import Homepage from "./Pages/HomePage/Homepage";
 import "./App.css";
-import LoginPage from "./Pages/LoginPage";
-import SignupPage from "./Pages/SignupPage";
+import LoginPage from "./Pages/LoginPage/LoginPage";
+import SignupPage from "./Pages/SignupPage/SignupPage";
 
 const route = (
   <Switch>

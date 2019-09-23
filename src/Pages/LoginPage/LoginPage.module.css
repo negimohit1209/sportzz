@@ -1,0 +1,8 @@
+.loginForm {
+  border: 1px solid red;
+  height: 100vh;
+}
+.loginMessage {
+  border: 1px solid green;
+  height: 100vh;
+}
