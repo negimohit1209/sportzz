@@ -1,6 +1,8 @@
 import React from "react";
 import { Row, Col } from "antd";
 import styles from "./LoginPage.module.css";
+import { Link } from "react-router-dom";
+import { Button } from "antd";
 
 export default function LoginPage() {
   return (
@@ -12,6 +14,11 @@ export default function LoginPage() {
             <div>
               <h1>Sign In To sportzz</h1>
             </div>
+            <Link to="/signup">
+              <Button className={styles.button} type="primary">
+                Signup
+              </Button>
+            </Link>
           </div>
         </Col>
         <Col span={8}>

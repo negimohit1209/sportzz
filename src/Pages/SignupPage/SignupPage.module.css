@@ -1,8 +1,8 @@
-.loginForm {
+.signupForm {
   border: 1px solid red;
   height: 100vh;
 }
-.loginMessage {
+.signupMessage {
   border: 1px solid green;
   height: 100vh;
   background-color: blue;
