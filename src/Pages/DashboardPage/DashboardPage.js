@@ -1,9 +1,12 @@
 import React from "react";
+import Layout from "../../Containers/Layout/Layout";
 
 export default function DashboardPage() {
   return (
-    <div>
-      <h1>DashboardPage</h1>
-    </div>
+    <Layout>
+      <div>
+        <h1>DashboardPage</h1>
+      </div>
+    </Layout>
   );
 }

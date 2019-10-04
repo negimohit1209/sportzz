@@ -1,4 +1,4 @@
-# Basketball_scoring app
+# Sportzz
 
 Basketball_scoring app is a web app that will help you to keep the track of the score, time, fouls,
 substitutions, players, and many more details as the app starts to take shape.
