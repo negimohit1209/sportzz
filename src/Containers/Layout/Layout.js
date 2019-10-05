@@ -1,8 +1,9 @@
 import React from "react";
 import { Layout, Menu, Breadcrumb, Icon } from "antd";
 import style from "./Layout.module.css";
+import Footer from "./Footer/Footer";
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Header, Content, Sider } = Layout;
 const { SubMenu } = Menu;
 
 export default class SiderDemo extends React.Component {
@@ -19,15 +20,15 @@ export default class SiderDemo extends React.Component {
     return (
       <Layout style={{ minHeight: "100vh" }}>
         <Sider
-          theme="light"
           collapsible
           collapsed={this.state.collapsed}
           onCollapse={this.onCollapse}
         >
           <div className={style.logo}>
-            <h1>Sportzz</h1>
+            <Icon type="pie-chart" />
+            <span>Option 1</span>
           </div>
-          <Menu theme="light" defaultSelectedKeys={["1"]} mode="inline">
+          <Menu theme="dark" defaultSelectedKeys={["1"]} mode="inline">
             <Menu.Item key="1">
               <Icon type="pie-chart" />
               <span>Option 1</span>
@@ -85,9 +86,7 @@ export default class SiderDemo extends React.Component {
               {this.props.children}
             </div>
           </Content>
-          <Footer style={{ textAlign: "center" }}>
-            Ant Design ©2018 Created by Ant UED
-          </Footer>
+          <Footer />
         </Layout>
       </Layout>
     );
