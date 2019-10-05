@@ -10,7 +10,7 @@ export default function LoginPage() {
       <Row>
         <Col span={16}>
           <div className={styles.loginForm}>
-            <h1 style={{ textAlign: "left" }}>Logo</h1>
+            <h1 style={{ textAlign: "left" }}>Sportzz</h1>
             <div>
               <h1>Sign In To sportzz</h1>
             </div>
