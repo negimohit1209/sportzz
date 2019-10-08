@@ -7,6 +7,9 @@ see: [Auction Dashboard](https://medium.com/@mohitsngh1997/iiest-football-league
 and in my college during even semesters every week we used to have some kind of a sporting event and cricket being the most important part of it. Using pen paper to handle scoring is not efficient, and for a college guy the leading run scorer in Sengupta Premier League is more important than leading run scorer of IPL.
 Starting with basketball, I am also planning to add cricket, handball, kabaddi, and many more sports to it as the time progresses.
 
+## Getting Started
+### `npm install`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

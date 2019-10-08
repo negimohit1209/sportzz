@@ -15,7 +15,7 @@ export default function SignupPage() {
         </Col>
         <Col span={16}>
           <div className={styles.signupForm}>
-            <h1 style={{ textAlign: "left" }}>Logo</h1>
+            <h1 style={{ textAlign: "left" }}>sportzz</h1>
             <div>
               <h1>Sign In To sportzz</h1>
             </div>
